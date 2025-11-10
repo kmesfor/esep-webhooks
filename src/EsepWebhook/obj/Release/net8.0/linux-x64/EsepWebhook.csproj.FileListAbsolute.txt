@@ -16,3 +16,5 @@
 /Users/kianmesforush/Desktop/Code/EsepWebhook/src/EsepWebhook/obj/Release/net8.0/linux-x64/EsepWebhook.genruntimeconfig.cache
 /Users/kianmesforush/Desktop/Code/EsepWebhook/src/EsepWebhook/obj/Release/net8.0/linux-x64/ref/EsepWebhook.dll
 /Users/kianmesforush/Desktop/Code/EsepWebhook/src/EsepWebhook/bin/Release/net8.0/linux-x64/Newtonsoft.Json.dll
+/Users/kianmesforush/Desktop/Code/EsepWebhook/src/EsepWebhook/obj/Release/net8.0/linux-x64/EsepWebhook.sourcelink.json
+/Users/kianmesforush/Desktop/Code/EsepWebhook/src/EsepWebhook/bin/Release/net8.0/linux-x64/Amazon.Lambda.Serialization.Json.dll

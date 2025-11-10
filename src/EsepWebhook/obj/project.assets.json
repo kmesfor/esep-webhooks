@@ -15,6 +15,23 @@
           }
         }
       },
+      "Amazon.Lambda.Serialization.Json/2.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.3.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.Serialization.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Serialization.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Amazon.Lambda.Serialization.SystemTextJson/2.4.4": {
         "type": "package",
         "dependencies": {
@@ -55,6 +72,23 @@
         },
         "runtime": {
           "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.Json/2.2.4": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.3.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.Serialization.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Serialization.Json.dll": {
             "related": ".xml"
           }
         }
@@ -109,6 +143,19 @@
         "lib/netstandard2.0/Amazon.Lambda.Core.xml"
       ]
     },
+    "Amazon.Lambda.Serialization.Json/2.2.4": {
+      "sha512": "xeOfdXmdxSTNKtv0ZMnd6PejmjgxHV3NLJNTARUI+Z2mcJ5eBHsT6vp3bhlXrvBYKt2zbF7+Q2EfQ0RtNJjQUQ==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.json/2.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.serialization.json.2.2.4.nupkg.sha512",
+        "amazon.lambda.serialization.json.nuspec",
+        "lib/netstandard2.0/Amazon.Lambda.Serialization.Json.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Serialization.Json.xml"
+      ]
+    },
     "Amazon.Lambda.Serialization.SystemTextJson/2.4.4": {
       "sha512": "iv/cvqFuZ3v3+NFDyof0IJZvU+4kdpzOe3pWSBwp9HB885I+D32WQxuid9V4GnvRynER9XnWMPaDmImX8qH5cA==",
       "type": "package",
@@ -161,6 +208,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Amazon.Lambda.Core >= 2.7.0",
+      "Amazon.Lambda.Serialization.Json >= 2.2.4",
       "Amazon.Lambda.Serialization.SystemTextJson >= 2.4.4",
       "Newtonsoft.Json >= 13.0.4"
     ]
@@ -210,6 +258,10 @@
           "Amazon.Lambda.Core": {
             "target": "Package",
             "version": "[2.7.0, )"
+          },
+          "Amazon.Lambda.Serialization.Json": {
+            "target": "Package",
+            "version": "[2.2.4, )"
           },
           "Amazon.Lambda.Serialization.SystemTextJson": {
             "target": "Package",

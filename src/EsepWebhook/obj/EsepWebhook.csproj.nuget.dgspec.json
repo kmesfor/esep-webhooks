@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[2.7.0, )"
             },
+            "Amazon.Lambda.Serialization.Json": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
             "Amazon.Lambda.Serialization.SystemTextJson": {
               "target": "Package",
               "version": "[2.4.4, )"
